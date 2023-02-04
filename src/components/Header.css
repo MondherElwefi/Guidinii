@@ -1,0 +1,104 @@
+.header-wrapper{
+  background:#3A3E46;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+  height: 70px;
+}
+.header-wrapper .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-wrapper .logo img{
+  height: 50px;
+  width: 50px;
+} 
+.header-wrapper .nav-for-desktop ul{
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 10px 0;
+}
+.header-wrapper .nav-for-desktop ul li a{
+  font-size: 17px;
+  transition: all .2s ease-in-out;
+}
+.header-wrapper .nav-for-desktop ul li a:hover{
+  color: rgb(201, 201, 201);
+  font-size: 18px;
+  
+}
+.header-wrapper .btns-authentication{
+  display: flex;
+  gap: 30px;
+}
+
+.header-wrapper .btns-authentication .btn-signup{
+  all: unset;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #18b39e;
+  transition: all .2s ease-in-out;
+}
+.header-wrapper .btns-authentication .btn-signup:hover{
+  background-color: #25DBC2  ;
+}
+
+.header-wrapper .btns-authentication .btn-signin{
+  all: unset;
+  cursor: pointer;
+}
+
+/*---------------------------THEME-ICONS---------------------------------*/
+.fa-moon{
+  transform: scale(0);
+  transition: all .2s ease-in-out;
+}
+
+.dark .fa-moon{
+  transform: scale(1);
+  text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.dark .fa-sun{
+  transform: scale(0);
+}
+
+.fa-sun{
+  color: rgb(245, 245, 88);
+  text-shadow: 2px 1px 20px rgb(245, 245, 88);
+  transform: scale(1);
+  transition: all .2s ease-in-out;
+
+}
+
+.icons-theme{
+  position: relative;
+}
+
+.icons-theme{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-theme i{
+  position: absolute;
+}
+
+
+ @media only screen and (max-width: 700px) {
+  .header-wrapper{
+    flex-direction: column;
+    height: auto;
+  }
+} 
+

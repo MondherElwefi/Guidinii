@@ -1,0 +1,20 @@
+.loading-wrapper{
+  border-top: 3px solid red;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  animation: LoadingAnimation .7s ease-in-out infinite;
+}
+@keyframes LoadingAnimation {
+  0% {transform: rotate(0);}
+  50% {transform: rotate(360deg);}
+  100% {transform: rotate(720deg);}
+}
+
+.dark .loading-wrapper{
+  background-color: white;
+}

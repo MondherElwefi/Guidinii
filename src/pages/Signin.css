@@ -1,0 +1,140 @@
+.signin-wrapper{
+  height: 95vh;
+  padding: 100px 0;
+}
+
+.signin-main{
+  justify-content: space-evenly;
+}
+
+.signin-img{
+  height: 450px !important;
+}
+
+.signin-form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  border-left:1px solid #333;
+  padding-left: 50px;
+}
+
+.signin-wrapper .signin-form input,.forget-password-wrapper form input{
+  all: unset;
+  padding: 0px 8px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  width: 350px;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.signin-wrapper .signin-form input::placeholder,.forget-password-wrapper form input::placeholder{
+  transform: translateY(0);
+  transition: all .1s ease-in-out;
+}
+.signin-wrapper .signin-form input:focus::placeholder,.forget-password-wrapper form input:focus::placeholder{
+  transform: translateY(-19px);
+  font-size: 12px;
+}
+.signin-wrapper .forget-password{
+cursor: pointer;
+  width: 100%;
+}
+.btn-signin{
+  all: unset;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #18b39e;
+  width: 100px;
+  transition: all .2s ease-in-out;  
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.btn-signin,.resend-email:hover{
+background-color: #25DBC2  ;
+}
+.signin-wrapper .dont-have-account{
+  text-align: center;
+  width: 100%;
+  margin-top: 50px !important;
+}
+.signin-wrapper .dont-have-account a{
+  width: 100%;
+  text-align: center;
+  color: #18b39e !important;  
+}
+
+
+/*----------------------FORGET PASSWORD BOX----------------------*/
+
+.forget-password-wrapper{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+
+.forget-password-wrapper form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.close-btn{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 35px;
+  cursor: pointer;
+}.resend-email{
+  all: unset;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #18b39e;
+  width: 150px;
+  transition: all .2s ease-in-out;  
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.signin-errors{
+  font-size:15px;
+  font-weight: 500;
+  color: rgb(255, 0, 0,.9);
+}
+.dark .signin-errors{
+  color: rgba(255, 63, 63, 0.8) !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .signin-form{
+    border: none;
+  }
+  .signin-wrapper .signin-form input,.forget-password-wrapper form input{
+    width: 250px;
+  }
+  .forget-password-wrapper{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+  }
+
+} 

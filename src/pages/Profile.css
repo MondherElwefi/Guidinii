@@ -1,0 +1,21 @@
+.profile-wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-wrapper p{
+  text-align: start;
+  font-size: 20px;
+
+}
+.delete-btn{
+  all: unset;
+  padding: 9px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #db3838;
+  transition: all .1s ease-in-out;
+  margin-top: 30px;
+  color: white;
+}

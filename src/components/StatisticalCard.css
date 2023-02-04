@@ -1,0 +1,29 @@
+.Statistical-card{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  cursor: pointer;
+  height: 180px;
+  width: 100%;
+}
+.Statistical-card .Statistical-card-numbers{
+  text-align: center;
+  font-weight: 600;
+  transition: all .2s ease-in-out;
+  letter-spacing: 5px;
+  color: black !important;
+}
+.dark .Statistical-card .Statistical-card-numbers{
+  color: rgb(255, 255, 255) !important;
+}
+
+.Statistical-card:hover .Statistical-card-numbers{
+  transform: rotate(-730deg);
+
+}
+.Statistical-card .Statistical-card-text{
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+}

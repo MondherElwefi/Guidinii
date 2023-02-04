@@ -1,0 +1,74 @@
+.signup-wrapper{
+  padding: 100px 0;
+  height: 95vh;
+}
+.signup-main{
+  justify-content: center;
+  gap: 50px;
+}
+.signup-img{
+  height: 450px !important;
+}
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  border-left:1px solid #333;
+  padding-left: 50px;
+}
+.signup-wrapper .signup-form input{
+  all: unset;
+  padding: 0px 8px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  width: 350px;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.signup-wrapper .signup-form input::placeholder{
+  transform: translateY(0);
+  transition: all .1s ease-in-out;
+}
+.signup-wrapper .signup-form input:focus::placeholder{
+  transform: translateY(-19px);
+  font-size: 12px;
+}
+.btn-signup{
+  all: unset;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #18b39e;
+  width: 100px;
+  transition: all .2s ease-in-out;  
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.btn-signup:hover{
+background-color: #25DBC2  ;
+}
+.signup-wrapper .dont-have-account{
+  text-align: center;
+  width: 100%;
+  margin-top: 50px !important;
+}
+.signup-wrapper .dont-have-account a{
+  width: 100%;
+  color: #18b39e !important;  
+}
+
+@media only screen and (max-width: 750px) {
+  .signup-wrapper{
+    padding: 50px 0;
+
+  }
+  .signup-form{
+    border: none;
+  }
+  .signup-wrapper .signup-form input{
+    width: 250px;
+  }
+
+} 

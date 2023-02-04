@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+ul{
+  list-style-type: none !important;
+}
+body{
+  min-height: 100vh;
+  min-width: 400px;
+}
+i{
+  cursor: pointer;
+}
+
+/*---------------------------DARK-MODE-CHANGES---------------------------------*/
+ 
+.dark{
+  background-color: rgb(0, 0, 0);
+}
+
+.dark header{
+  border-bottom: 1px solid white;
+  background-color: rgb(0, 0, 0);
+}
+
+.dark footer{
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid white;
+}
+
+.dark main{
+  background-color: rgb(0, 0, 0);
+}
+
+.dark div{
+  background-color: rgb(0, 0, 0);
+}
+
+.dark p,h1,h2,h3,h4,h5,h6{
+  color: white !important;
+}
+
+.dark h3{
+  color: white;
+}
+
+.dark input{
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+  color: white !important;
+}
+
+.dark .cards-page{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.dark .card-wrapper{
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+

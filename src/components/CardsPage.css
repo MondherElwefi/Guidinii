@@ -1,0 +1,29 @@
+.cards-page{
+background-color: #3A3E46;
+margin-bottom: 50px;
+padding: 90px 0;
+}
+.cards-page .cards-wrapper{
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+.cards-page .cards-page-title{
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .cards-page .cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .card-wrapper{
+    height: 350px ;
+    min-width: 300px !important;
+  }
+}

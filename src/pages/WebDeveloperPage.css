@@ -1,0 +1,30 @@
+.web-developer-page-wrapper{
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.section-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+.section-wrapper .img-tech{
+  height: 100px;  
+  width: 100px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+}
+.section-wrapper .img-tech:hover{
+  height: 105px;  
+  width: 105px;
+}
+
+.section-title{
+  text-align: center;
+  color: #18b39e !important;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}

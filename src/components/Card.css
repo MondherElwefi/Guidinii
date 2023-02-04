@@ -1,0 +1,21 @@
+.card-wrapper{
+  height: 300px !important;
+  width: 250px !important;
+  cursor: pointer;
+}
+
+.card-wrapper .card-title{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.card-img{
+  height: 70px;
+  width: 70px !important;
+  margin: 20px auto;
+  transition: all .2s ease-in-out;
+}
+.card-wrapper:hover .card-img{
+  height: 80px;
+  width: 80px !important;
+}

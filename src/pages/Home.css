@@ -1,0 +1,45 @@
+.home{
+  padding: 100px 10px !important;
+}
+.home .home-wrapper .home-text p{
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-align: start;
+}
+.btn-join-now{
+  all: unset;
+  padding: 9px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #18b39e;
+  transition: all .1s ease-in-out;
+  margin-top: 30px;
+}
+.btn-join-now:hover{
+  padding: 10px 26px;
+  background-color: #25DBC2  ;
+}
+
+.home-user{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-user p{
+  font-size: 40px;
+  text-align: center;
+}
+@media only screen and (max-width: 780px) {
+  .home .home-wrapper .home-text p{
+    text-align: center;
+  }
+  .home .home-wrapper .home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+  }
+} 

@@ -1,0 +1,16 @@
+.Statistical-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.cards-page-title{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .Statistical-wrapper{
+    flex-direction: column;
+  }
+} 
+

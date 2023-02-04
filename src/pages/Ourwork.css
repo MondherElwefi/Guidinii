@@ -1,0 +1,16 @@
+.ourwork-wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ourwork-img{
+  margin-top: 100px;
+}
+.ourwork-wrapper .ourwork-text{
+  max-width: 950px;
+  height: auto;
+  letter-spacing: 2px;
+  padding: 50px;
+}
